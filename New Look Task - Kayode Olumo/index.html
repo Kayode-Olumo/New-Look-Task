@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>kids game</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kayode Olumo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- navigation section -->
+    <nav>
+        <div class="header_content">
+            <div class="header">
+                <h1>Brand Name</h1>
+            </div>
+            <div class="toggle">
+                <img src="icons/burger.svg" alt="hamburger icon" class="burger_icon menu">
+            </div>
+        </div>
+        <ul class="nav_links">
+            <div class="game-categories">
+                <table class="game-categories-tb">
+                    <tr>
+                        <th class="top-l-corner thead">
+                            <a href="#" class="category-link">
+                                <img class="category-img" src="icons/popular_games.svg" alt="popular">
+                                <h2 class="category-header">Popular Game</h2>
+                            </a>
+                        </th>
+                        <th class="top-r-corner thead">
+                            <a href="#" class="category-link">
+                                <img class="category-img" src="icons/adventure_games.svg" alt="adventure">
+                                <h2 class="category-header">Adventure Game</h2>
+                            </a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="thead">
+                            <a href="#" class="category-link">
+                                <img class="category-img" src="icons/creativity_games.svg" alt="creativity">
+                                <h2 class="category-header">Creativity Game</h2>
+                            </a>
+                        </th>
+                        <th class="thead"> 
+                            <a href="#" class="category-link">
+                                <img class="category-img" src="icons/educational_games.svg" alt="educational">
+                                <h2 class="category-header">Educational Game</h2>
+                            </a>    
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="bottom-l-corner thead"> 
+                            <a href="#" class="category-link">
+                                <img class="category-img" src="icons/strategy_games.svg" alt="strategy">
+                                <h2 class="category-header">Strategy Game</h2>
+                            </a>
+                        </th>
+                        <th class="bottom-r-corner thead">
+                            <a href="#" class="category-link">
+                                <img class="category-img" src="icons/world_games.svg" alt="world">
+                                <h2 class="category-header">World Game</h2>
+                            </a>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+
+            <hr class="dividing_line">
+                <li><a href="#" class="dropdown-links">ARTICLE</a></li>
+            <li><a href="#" class="dropdown-links">BRAND PROMOTIONS</a></li>
+            <hr class="dividing_line">
+            <li><a href="#" class="dropdown-links">REWARDS</a></li>
+            <hr class="dividing_line">
+            <li><a href="#" class="dropdown-links">HELP</a></li>
+            <hr class="dividing_line">
+            <li><a href="#" class="dropdown-links">ABOUT US</a></li>
+        </ul>
+    </nav>
+
+<!-- game history section -->
+    <main class="game-stage">
+        <div class="game-history">
+            <!-- tab section -->
+            <div class="tab-container">
+                <div class="btn-container">
+                    <button onclick = "showPanel(0,'#2a3344')" class="tab-btn">featured</button>
+                    <button onclick = "showPanel(1,'#2a3344')" class="tab-btn">last played</button>
+                    <button onclick = "showPanel(2,'#2a3344')" class="tab-btn">most played</button>
+                </div>
+
+                <!-- tab 1 -->
+                <div class="tab-panel">
+                    <!-- game carosel -->
+                <div class="items">
+                    <a href="#" class="item-link">
+                        <div class="item item1">
+                            <div class="item-container">
+                                <img class="item-img img-fish" src="assets/pool-fish.png" alt="">
+                            </div>
+                            <p class="item-text">POOL FISH</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item2">
+                            <div class="item-container">
+                                <img class="item-img" src="assets/Image-1.png" alt="">
+                            </div>
+                            <p class="item-text">BLOB</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item3">
+                            <div class="item-container">
+                                <img class="item-img img-alien" src="assets/alien.png" alt="">
+                            </div>
+                            <p class="item-text">ALIEN</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item4">
+                            <div class="item-container">
+                                <img class="item-img" src="assets/bee.png" alt="">
+                            </div>
+                            <p class="item-text">BEE</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item5">
+                            <div class="item-container">
+                                <img class="item-img" src="assets/elephant.png" alt="">
+                            </div>
+                            <p class="item-text">ELEPHANT</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item6">
+                           <div class="item-container">
+                                <img class="item-img" src="assets/ghost.png" alt="">
+                            </div>
+                            <p class="item-text">GHOST</p> 
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item7">
+                            <div class="item-container">
+                                <img class="item-img" src="assets/giraffe.png" alt="">
+                            </div>
+                            <p class="item-text">GIRAFFE</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item8">
+                            <div class="item-container">
+                                <img class="item-img" src="assets/hippo.png" alt="">
+                            </div>
+                            <p class="item-text">HIPPO</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-link">
+                        <div class="item item9">
+                            <div class="item-container">
+                                <img class="item-img" src="assets/monkey.png" alt="">
+                            </div>
+                            <p class="item-text">MONKEY</p>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+
+                <!-- tab 2 -->
+                <div class="tab-panel">
+                    <div class="items">
+                        <a href="#" class="item-link">
+                            <div class="item item7">
+                                <div class="item-container">
+                                    <img class="item-img" src="assets/giraffe.png" alt="">
+                                </div>
+                                <p class="item-text">GIRAFFE</p>
+                            </div>
+                        </a>
+                        <a href="#" class="item-link">
+                            <div class="item item8">
+                                <div class="item-container">
+                                    <img class="item-img" src="assets/hippo.png" alt="">
+                                </div>
+                                <p class="item-text">HIPPO</p>
+                            </div>
+                        </a>
+                        <a href="#" class="item-link">
+                            <div class="item item9">
+                                <div class="item-container">
+                                    <img class="item-img" src="assets/monkey.png" alt="">
+                                </div>
+                                <p class="item-text">MONKEY</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- tab 3 -->
+                <div class="tab-panel">
+                    <div class="items">
+                    <a href="#" class="item-link">
+                            <div class="item item4">
+                                <div class="item-container">
+                                    <img class="item-img" src="assets/bee.png" alt="">
+                                </div>
+                                <p class="item-text">BEE</p>
+                            </div>
+                        </a>
+                        <a href="#" class="item-link">
+                            <div class="item item5">
+                                <div class="item-container">
+                                    <img class="item-img" src="assets/elephant.png" alt="">
+                                </div>
+                                <p class="item-text">ELEPHANT</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="cat-items ">
+                    <table class="cat-tb" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <th class="first-cat thead">
+                                    <a href="#" class="cat-link">
+                                        <div>
+                                            <img class="category-img" src="icons/popular_games.svg" alt="popular">
+                                            <h2 class="cat-header">Popular Game</h2>
+                                        </div>
+                                    </a>
+                                </th>
+                                <th class="thead">
+                                    <a href="#" class="cat-link">
+                                        <img class="category-img" src="icons/adventure_games.svg" alt="adventure">
+                                        <h2 class="cat-header">Adventure Game</h2>
+                                    </a>
+                                </th>
+                                <th class="thead">
+                                    <a href="#" class="cat-link">
+                                        <img class="category-img" src="icons/creativity_games.svg" alt="creativity">
+                                        <h2 class="cat-header">Creativity Game</h2>
+                                    </a>
+                                </th>
+                                <th class="thead"> 
+                                    <a href="#" class="cat-link">
+                                        <img class="category-img" src="icons/educational_games.svg" alt="educational">
+                                        <h2 class="cat-header">Educational Game</h2>
+                                    </a>    
+                                </th>
+                                <th class="thead"> 
+                                    <a href="#" class="cat-link">
+                                        <img class="category-img" src="icons/strategy_games.svg" alt="strategy">
+                                        <h2 class="cat-header">Strategy Game</h2>
+                                    </a>
+                                </th>
+                                <th class="last-cat thead">
+                                    <a href="#" class="cat-link">
+                                        <img class="category-img" src="icons/world_games.svg" alt="world">
+                                        <h2 class="cat-header">World Game</h2>
+                                    </a>
+                                </th>
+                            </tr>
+                        </table>
+
+                <!-- <div class="cat-item cat-item1">
+                    <div class="cat-item-container">
+                        <img class="cat-item-img" src="icons/popular_games.svg" alt="">
+                        <p class="cat-item-text">Popular Games</p>
+                    </div>
+                    
+                </div>
+                <div class="cat-item">
+                    <div class="cat-item-container">
+                        <img class="cat-item-img" src="icons/adventure_games.svg" alt="">
+                        <p class="cat-item-text">Adventure Games</p>
+                    </div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-item-container">
+                        <img class="cat-item-img" src="icons/creativity_games.svg" alt="">
+                        <p class="cat-item-text">Creativity Games</p>
+                    </div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-item-container">
+                        <img class="cat-item-img" src="icons/educational_games.svg" alt="">
+                        <p class="cat-item-text">Educational Games</p>
+                    </div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-item-container">
+                        <img class="cat-item-img" src="icons/strategy_games.svg" alt="">
+                        <p class="cat-item-text">Strategy Games</p>
+                    </div>
+                </div>
+                <div class="cat-item cat-item6">
+                    <div class="cat-item-container">
+                        <img class="cat-item-img" src="icons/world_games.svg" alt="">
+                        <p class="cat-item-text">World Games</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <div id="game-area">
+            <div class="game-container">
+                <div class="game-box">
+                    <a href="#" class="game-btn">
+                        <div class="game-img-container">
+                            <img src="assets/elephant.png" alt="" class="game-img">
+                        </div>
+                        <div class="game-text">
+                            <p>unforgettable elephant</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-box">
+                    <a href="#" class="game-btn">
+                        <div class="game-img-container">
+                            <img src="assets/hippo.png" alt="" class="game-img">
+                        </div>
+                        <div class="game-text">
+                            <p>feed the hippo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-box">
+                    <a href="#" class="game-btn">
+                        <div class="game-img-container">
+                            <img src="assets/ghost.png" alt="" class="game-img">
+                        </div>
+                        <div class="game-text">
+                            <p>ghost invader</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-box">
+                    <a href="#" class="game-btn">
+                        <div class="game-img-container">
+                            <img src="assets/bee.png" alt="" class="game-img">
+                        </div>
+                        <div class="game-text">
+                            <p>honey bee II</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-box">
+                    <a href="#" class="game-btn">
+                        <div class="game-img-container">
+                            <img src="assets/monkey.png" alt="" class="game-img">
+                        </div>
+                        <div class="game-text">
+                            <p>coin monkey</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-box">
+                    <a href="#" class="game-btn">
+                        <div class="game-img-container">
+                            <img src="assets/giraffe.png" alt="" class="game-img">
+                        </div>
+                        <div class="game-text">
+                            <p>zoo</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+        <ul class="footer_links">
+            <li><a href="#" class="f_links">terms of service</a></li>
+            <li><a href="#" class="f_links">forms & agreements</a></li>
+            <li><a href="#" class="f_links">help</a></li>
+        </ul>
+        <div class="contact-meduim">
+            <div class="circle fb-circle"><img src="icons/fb.svg" alt="" class="fb"></div>
+            <div class="circle twitter-circle"><img src="icons/twitter.svg" alt="" class="twitter"></div>
+            <div class="circle blob-circle"><img src="icons/blog.svg" alt="" class="blob"></div>
+        </div>
+        <div class="f_textbox">
+            <p class="f_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Phasellus vehicula dolor ipsum, 
+                id malesuada nisi tincidunt eget. 
+            </p>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/toggle.js"></script>
+    
+</body>
+</html>
